@@ -365,7 +365,7 @@ nav {
 }
 
 .hotel {
-    padding: 0 5vw;
+    padding: 0 1vw;
 }
 
 .card-containar {
@@ -668,7 +668,7 @@ p,
     /* nav section */
 
     nav {
-        margin: 0 auto;
+        margin: 0 8vw;
     }
 
     .nav-section {
@@ -680,6 +680,7 @@ p,
     }
 
     /* banner */
+
 
     .banner-image {
         width: 96vw;
@@ -719,8 +720,9 @@ p,
 
     .popular {
         flex-direction: column;
-        margin: 0 auto;
-        margin-top: 5vh;
+        margin: 12.5vh 8vw;
+        gap: 10vw;
+        align-items: center;
     }
 
     .popular-image img {
@@ -773,7 +775,9 @@ p,
 
     .get-lost {
         flex-direction: column;
-        margin: 0 auto;
+        margin: 12.5vh 8vw;
+        gap: 10vw;
+        align-items: center;
     }
 
     .popular-image video {
